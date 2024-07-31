@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hover-effect">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Dwayne Ratemo, an aspiring developer passionate about technology and coding. I am currently a student at the United States International University Africa, Majoring in Applied Computer Technology. Explore my work and feel free to get in touch!</p>
+        </section>
+
+        <section id="about">
+            <div class="container hover-effect">
+            <h1>About Me</h1>
+            <img src="profile.jpg" alt="Profile Picture">
+            <p>Dwayne here, I am currently studying Applied Computer Technology at USIU Africa. I have a passion for coding, cybersecurity, and fashion. In my spare time, I enjoy learning new programming languages and exploring the latest trends in technology.</p>
+        </div>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="project hover-effect">
+                <img src="programming paradigms image.jpg" alt="Project 1">
+                <h2>Project 1:PROGRAMMING PARADIGMS
+                </h2>
+                <p><em> developed a login application that can validate input fields, the fields
+                    ought not to be empty and the username has to be a valid email address. Validation should employ three alternatives:  
+                    •	Functional
+                    •	OOP
+                    •	Procedural programming
+                </em></p>
+                <a href="https://github.com/Rat3mo/project1">View on GitHub</a>
+            </div>
+            <div class="project hover-effect">
+                <img src="area of shape. py.jpg" alt="Project 2">
+                <h2>project 2:Mathematical Computation</h2>
+                <p>
+                    <em> program prompts the user to choose a shape and enter the required variables. The program is implemented in Python
+                </em>
+                </p>
+                <a href="https://github.com/Rat3mo/project2">View on GitHub</a>
+            </div>
+            <div class="project hover-effect">
+                <img src="GRADE IMAGE.jpg" alt="Project 2">
+                <h2>Project 3:Grading Program</h2>
+                <p><em> grade program takes marks as input and awards the appropriate grade based on USIU’s grading system.
+                </em>
+                </p>
+                <a href="https://github.com/Rat3mo/project2">View on GitHub</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section id="blog">
+            <h1>Blog</h1>
+            <article class="blog-post">
+                <h2>My Journey with JavaScript: From Beginner to Intermediate</h2>
+                <p class="date">July 30, 2024</p>
+                <p>In this blog post, I'll share my journey of learning Python and Javascript.
+                    Learning Python and JavaScript has been a transformative journey in my academic and professional life. Starting with Python, I appreciated its simplicity and versatility, which allowed me to grasp core programming concepts quickly and apply them to various projects, from data analysis to web development. Transitioning to JavaScript, I embraced the challenge of creating dynamic and interactive web applications, enhancing my skills in front-end development. These experiences have not only deepened my understanding of coding but also ignited my passion for continuous learning in the ever-evolving field of technology.
+                </p>
+                <a href="#">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h2>My journey with HTML and design.</h2>
+                <p class="date">July 30, 2024</p>
+                <p>My journey with HTML and design has taught me the value of simplicity. Starting with the basics of HTML, I quickly realized how powerful clean, well-structured code can be. Embracing minimalist design principles, I learned to create elegant and user-friendly websites that focus on clarity and usability. This approach not only enhances the user experience but also makes maintenance and updates more efficient. The blend of simplicity in design and the foundational strength of HTML continues to inspire my work in web development.</p>
+                <a href="#">Read More</a>
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Dwayne Ratemo. All rights reserved.</p>
+    </footer>
+</body>
+</html>

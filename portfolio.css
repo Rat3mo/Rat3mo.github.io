@@ -1,0 +1,261 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #e00e0e;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #080101;
+}
+
+header {
+    background-color: #270505;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+/* Hover Effect */
+.hover-effect {
+    transition: transform 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: translateY(-10px);
+}
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e2e2e2;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.project {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.project h2 {
+    margin: 20px 0 10px;
+}
+
+.project p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e2e2e2;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#contact label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#contact input, #contact textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-right: 20px;
+    border: none;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Blog Section */
+#blog {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+#blog h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog-post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 800px;
+    transition: transform 0.3s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-10px);
+}
+
+.blog-post h2 {
+    margin-top: 0;
+}
+
+.blog-post .date {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.blog-post p {
+    margin: 10px 0;
+}
+
+.blog-post a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+/* Hover Effect */
+.hover-effect {
+    transition: transform 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #290505;
+    color: #e00e0e;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
